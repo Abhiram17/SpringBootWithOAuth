@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  resources:
+    static-locations: "classpath:/static/"
+                                     
+okta:
+  oauth2:
+    issuer: https://dev-126899.okta.com/oauth2/default
+    clientId: 0oagy2scmnusk7wSt356
+    clientSecret: sVY6RnQwaA5lotuFkxs29lCB9ax377PhA1aBmLTV
+    rolesClaim: groups
